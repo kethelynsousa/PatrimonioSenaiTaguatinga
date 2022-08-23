@@ -5,7 +5,7 @@ public class Nivel{
         Nome = nome;
     }
 
-    public int Id { get;set;}
+public int Id { get;set;}
 public string Nome {get;set;}
-
+public ICollection<Usuario>Usuarios{get;set;} = null!;
 }
